@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Homepage • Nischay Agarwal" />
+    <meta name="author" content="Nischay Agarwal" />
+    <title>Nischay Agarwal — Homepage</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <!-- Font Awesome icons -->
+    <script
+      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Core theme CSS (includes Bootstrap overrides) -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Tiny taste change: palette, spacing, headings, bullets, soft cards -->
+    <style>
+      :root{
+        --brand:#315efb;         /* primary */
+        --accent:#00c2a8;        /* accent */
+        --ink:#0d1321;
+        --muted:#5b677a;
+      }
+      body{ color:var(--ink); }
+      .bg-primary{ background-color:var(--brand)!important; }
+      .text-primary{ color:var(--muted)!important; font-weight:600; }
+      a{ color:var(--brand); text-decoration:none; border-bottom:1px dashed rgba(49,94,251,.35); }
+      a:hover{ color:var(--accent); border-bottom-color:rgba(0,194,168,.6); }
+
+      /* Sidebar polish */
+      #sideNav{ width:270px; border-right:1px solid rgba(13,19,33,.08); box-shadow:0 0 30px rgba(2,8,23,.06); }
+      @media (max-width:991px){ #sideNav{ width:100%; } }
+
+      /* Photo frame */
+      .img-profile{ border:4px solid #fff; box-shadow:0 10px 30px rgba(2,8,23,.15); transition:transform .2s, filter .2s; filter:saturate(.95); }
+      .img-profile:hover{ transform:translateY(-2px); filter:saturate(1.05); }
+
+      /* Type + section rhythm */
+      h1,h2{ letter-spacing:.4px; }
+      h1{ font-weight:700; }
+      .resume-section{ padding:3.25rem 0; }
+      .resume-section[id]{ scroll-margin-top:72px; }
+      html{ scroll-behavior:smooth; }
+      .resume-section-content .subheading{ color:var(--muted); font-weight:600; }
+      .lead{ line-height:1.7; }
+
+      /* Project title accent underline */
+      .resume-section-content h3{ position:relative; padding-bottom:.25rem; margin-bottom:.35rem; }
+      .resume-section-content h3::after{
+        content:""; position:absolute; left:0; bottom:0; width:52px; height:3px;
+        background:linear-gradient(90deg,var(--brand),var(--accent)); border-radius:3px;
+      }
+
+      /* Lists + soft project cards */
+      .resume-section-content ul{ padding-left:1.2rem; }
+      .resume-section-content li{ margin:.25rem 0; }
+      .resume-section-content li::marker{ color:var(--brand); }
+      #projects .d-flex.mb-3{
+        background:rgba(2,8,23,.02); border:1px solid rgba(13,19,33,.06);
+        border-radius:12px; padding:14px 16px;
+      }
+
+      /* Social icons -> soft buttons */
+      .social-icons a{
+        display:inline-flex; align-items:center; justify-content:center;
+        width:38px; height:38px; border-radius:10px;
+        background:rgba(49,94,251,.08); margin-right:6px;
+        transition:transform .15s, background .2s;
+      }
+      .social-icons a:hover{ transform:translateY(-1px); background:rgba(0,194,168,.12); }
+    </style>
+  </head>
+
+  <body id="page-top">
+    <!-- Side Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Nischay Agarwal</span>
+        <span class="d-none d-lg-block">
+          <!-- Replace with your photo -->
+          <img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="assets/img/profile.jpg"
+            alt="Profile photo of Nischay Agarwal"
+          />
+        </span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#achieve">Achievements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container-fluid p-0">
+      <!-- About -->
+      <section class="resume-section" id="about">
+        <div class="resume-section-content">
+          <h1 class="mb-0">Nischay Agarwal</h1>
+
+          <div class="subheading mb-3">
+            B.Tech (CSE), IIT Kanpur · Systems & Parallel Computing
+          </div>
+
+          <p class="lead mb-4">
+            I’m a third-year undergraduate in Computer Science & Engineering at
+            IIT Kanpur. I focus on computer systems—OS internals
+            (<strong>gemOS/xv6</strong>), parallel computing
+            (<strong>MPI/OpenMP</strong>), and computer architecture. I’m
+            contributing to a <strong>research project on optimal map inference</strong>
+            and have built a <strong>single-cycle processor</strong> as a course project.
+            I enjoy instrumenting, profiling, and debugging parallel programs with an
+            emphasis on correctness, scaling, and clean code.
+          </p>
+
+          <div class="social-icons">
+            <a class="social-icon" href="mailto:nischaya23@iitk.ac.in"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+            <a
+              class="social-icon"
+              href="https://www.linkedin.com/in/nischay-agarwal-99b84a256/"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              class="social-icon"
+              href="https://github.com/nischaya23"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              class="social-icon"
+              href="https://codeforces.com/profile/nischayvagarwal"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-solid fa-code"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Education -->
+      <section class="resume-section" id="education">
+        <div class="resume-section-content lead">
+          <h2 class="mb-5">Education</h2>
+
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Indian Institute of Technology Kanpur</h3>
+              <div class="subheading mb-2">Bachelor of Technology</div>
+              <div>Computer Science and Engineering</div>
+              <p>CPI: 9.4/10 (current)</p>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">2023 – 2027 (Expected)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Achievements -->
+      <section class="resume-section" id="achieve">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Scholastic Achievements</h2>
+          <ul class="lead fa-ul mb-0">
+            <li type="disc">
+              Academic Excellence Awards (Top 10%) — 2023–24, 2024–25
+            </li>
+            <li type="disc">
+              JEE Advanced AIR 194 (2023), JEE Main AIR 36 (2023)
+            </li>
+            <li type="disc">KVPY SA AIR 107 (2022); NTSE Scholar (2021)</li>
+            <li type="disc">
+              OCSC Chemistry (2023) & Junior Science (2021) — Top 35 nationally
+            </li>
+            <li type="disc">
+              <strong>Inter-IIT Tech Meet — Silver Medal</strong>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Projects -->
+      <section class="resume-section" id="projects">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Projects</h2>
+
+          <!-- Map Inference (UGP) -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-3"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Probabilistic Map Inference (UGP)</h3>
+              <div class="subheading">Undergraduate Project</div>
+              <ul>
+                <li>
+                  Applied MCMC-based search to infer optimal differentiation maps from lineage trees.
+                </li>
+                <li>
+                  Parallelized multiple chains/restarts using Python concurrency to reduce end-to-end runtime.
+                </li>
+              </ul>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">2025</span>
+            </div>
+          </div>
+
+          <!-- gemOS/xv6 -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-3"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">gemOS/xv6 Systems Labs</h3>
+              <div class="subheading">OS Internals</div>
+              <ul>
+                <li>
+                  Implemented copy-on-write fork, page-fault paths, and TLB
+                  invalidation with targeted tests.
+                </li>
+                <li>
+                  Worked through multi-level page-table walks and lazy
+                  allocation with debug instrumentation.
+                </li>
+              </ul>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">2024–25</span>
+            </div>
+          </div>
+
+          <!-- Single-cycle processor -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-3"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">IITK-Mini-MIPS (Single-cycle Processor)</h3>
+              <div class="subheading">
+                CS220 Course Project · Computer Architecture
+              </div>
+              <ul>
+                <li>
+                  Designed a single-cycle CPU (datapath + control) supporting
+                  arithmetic, memory access, and branches.
+                </li>
+                <li>
+                  Wrote Verilog modules (IF/ID/ALU/Control) and a Python
+                  assembler for a custom ISA subset; validated with an
+                  insertion-sort program.
+                </li>
+              </ul>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Jan 2025 – Apr 2025</span>
+            </div>
+          </div>
+
+          <!-- Real-Time Trading Book Simulation -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-3"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Real-Time Trading Book Simulation</h3>
+              <div class="subheading">Django · PostgreSQL</div>
+              <ul>
+                <li>
+                  Implemented a price-time priority matching engine (Market,
+                  Limit, Iceberg, IOC, Stop-Loss).
+                </li>
+                <li>
+                  Designed for fairness and fast queries; used for
+                  microstructure-style experiments.
+                </li>
+              </ul>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Dec 2024 – Apr 2025</span>
+            </div>
+          </div>
+
+          <!-- FindIIT -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-3"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">FindIIT — Lost &amp; Found</h3>
+              <div class="subheading">MERN · CS253</div>
+              <ul>
+                <li>
+                  Scalable REST API with JWT authentication; MongoDB Atlas for
+                  persistence; WebSockets for real-time chat.
+                </li>
+              </ul>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Jan 2025 – Mar 2025</span>
+            </div>
+          </div>
+
+          <!-- Bayesian Statistics -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-3"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Bayesian Statistics &amp; Inference</h3>
+              <div class="subheading">Stamatics Society</div>
+              <ul>
+                <li>
+                  Worked with hierarchical models and Gaussian processes; PyMC /
+                  ArviZ for inference and model comparison.
+                </li>
+              </ul>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">May 2024 – Jul 2024</span>
+            </div>
+          </div>
+
+          <!-- Library Management -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-3"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Library Management System</h3>
+              <div class="subheading">C++ · CS253</div>
+              <ul>
+                <li>
+                  Role-based design (Student/Faculty/Librarian), OOP with CSV
+                  persistence; borrowing/returns and fines.
+                </li>
+              </ul>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">Mar 2025</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Contact -->
+      <section class="resume-section" id="contact">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Contact</h2>
+
+          <div class="subheading">
+            IIT Kanpur · Kanpur, Uttar Pradesh 208016
+          </div>
+
+          <div class="social-icons mt-3">
+            <a class="social-icon" href="mailto:nischaya23@iitk.ac.in"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+            <a
+              class="social-icon"
+              href="https://www.linkedin.com/in/nischay-agarwal-99b84a256/"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              class="social-icon"
+              href="https://github.com/nischaya23"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              class="social-icon"
+              href="https://codeforces.com/profile/nischayvagarwal"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-solid fa-code"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Bootstrap core JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <!-- Core theme JS -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
+
