@@ -226,26 +226,6 @@
         <div class="resume-section-content">
           <h2 class="mb-5">Projects</h2>
 
-          <!-- Map Inference (UGP) -->
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-3"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Probabilistic Map Inference (UGP)</h3>
-              <div class="subheading">Undergraduate Project</div>
-              <ul>
-                <li>
-                  Applied MCMC-based search to infer optimal differentiation maps from lineage trees.
-                </li>
-                <li>
-                  Parallelized multiple chains/restarts using Python concurrency to reduce end-to-end runtime.
-                </li>
-              </ul>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">2025</span>
-            </div>
-          </div>
 
           <!-- gemOS/xv6 -->
           <div
@@ -271,78 +251,103 @@
           </div>
 
           <!-- Single-cycle processor -->
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-3"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">IITK-Mini-MIPS (Single-cycle Processor)</h3>
-              <div class="subheading">
-                CS220 Course Project · Computer Architecture
-              </div>
-              <ul>
-                <li>
-                  Designed a single-cycle CPU (datapath + control) supporting
-                  arithmetic, memory access, and branches.
-                </li>
-                <li>
-                  Wrote Verilog modules (IF/ID/ALU/Control) and a Python
-                  assembler for a custom ISA subset; validated with an
-                  insertion-sort program.
-                </li>
-              </ul>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Jan 2025 – Apr 2025</span>
-            </div>
-          </div>
+          <!-- Sahara – CS253 Course Website -->
+<div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+  <div class="flex-grow-1">
+    <h3 class="mb-0">Sahara — CS253 Course Website</h3>
+    <div class="subheading">
+      Course Project · Software Development and Operations · CS253
+    </div>
+    <ul>
+      <li>
+        Worked in a 10-member team to build a full course management portal with
+        documentation and an alpha-tested release.
+      </li>
+      <li>
+        Met regularly with the instructor to capture requirements and prioritize
+        features for real deployment.
+      </li>
+      <li>
+        Implemented OTP-based secure login, real-time discussion forums, and
+        role-specific access for students, TAs, and faculty.
+      </li>
+      <li>
+        Streamlined project workflows with team formation, automated TA
+        assignment, and structured submission pipelines.
+      </li>
+      <li>
+        Tech stack: React/Next.js with Material UI frontend, FastAPI backend,
+        and PostgreSQL database.
+      </li>
+    </ul>
+  </div>
+  <div class="flex-shrink-0">
+    <span class="text-primary">Jan 2025 – Apr 2025</span>
+  </div>
+</div>
 
-          <!-- Real-Time Trading Book Simulation -->
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-3"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Real-Time Trading Book Simulation</h3>
-              <div class="subheading">Django · PostgreSQL</div>
-              <ul>
-                <li>
-                  Implemented a price-time priority matching engine (Market,
-                  Limit, Iceberg, IOC, Stop-Loss).
-                </li>
-                <li>
-                  Designed for fairness and fast queries; used for
-                  microstructure-style experiments.
-                </li>
-              </ul>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Dec 2024 – Apr 2025</span>
-            </div>
-          </div>
+<!-- IITK-Mini-MIPS (Single-cycle Processor) -->
+<div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+  <div class="flex-grow-1">
+    <h3 class="mb-0">IITK-Mini-MIPS (Single-cycle Processor)</h3>
+    <div class="subheading">
+      CS220 Course Project · Computer Organisation
+    </div>
+    <ul>
+      <li>
+        Built a 32-bit single-cycle MIPS-like processor in Verilog supporting
+        R-, I-, and J-type instructions.
+      </li>
+      <li>
+        Extended the design with floating-point instructions and a
+        64-register architecture tailored to the custom ISA.
+      </li>
+      <li>
+        Created and used custom testbenches to verify end-to-end execution of a
+        bucket sort program on the processor.
+      </li>
+      <li>
+        Implemented core components from scratch: instruction/data memory, ALU,
+        control unit, and register file.
+      </li>
+    </ul>
+  </div>
+  <div class="flex-shrink-0">
+    <span class="text-primary">Jan 2025 – Apr 2025</span>
+  </div>
+</div>
 
-          <!-- FindIIT -->
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-3"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">FindIIT — Lost &amp; Found</h3>
-              <div class="subheading">MERN · CS253</div>
-              <ul>
-                <li>
-                  Scalable REST API with JWT authentication; MongoDB Atlas for
-                  persistence; WebSockets for real-time chat.
-                </li>
-              </ul>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">Jan 2025 – Mar 2025</span>
-            </div>
-          </div>
+<!-- Library Management System -->
+<div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+  <div class="flex-grow-1">
+    <h3 class="mb-0">Library Management System</h3>
+    <div class="subheading">
+      CS253 Course Project · Software Development and Operations
+    </div>
+    <ul>
+      <li>
+        Developed a library management application in C++ using object-oriented
+        design (inheritance, polymorphism, encapsulation).
+      </li>
+      <li>
+        Modelled user roles (Student, Faculty, Librarian) with distinct access
+        rights and borrowing constraints.
+      </li>
+      <li>
+        Implemented modules for fines, borrowing history, and book inventory
+        management.
+      </li>
+      <li>
+        Used file-based I/O to persist system state across runs, mimicking a
+        real-world LMS backend.
+      </li>
+    </ul>
+  </div>
+  <div class="flex-shrink-0">
+    <span class="text-primary">Jan 2025 – Apr 2025</span>
+  </div>
+</div>
 
-          <!-- Bayesian Statistics -->
-        
-
-          <!-- Library Management -->
-          
       <!-- Contact -->
       <section class="resume-section" id="contact">
         <div class="resume-section-content">
